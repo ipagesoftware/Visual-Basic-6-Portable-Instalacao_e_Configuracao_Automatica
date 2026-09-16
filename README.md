@@ -321,7 +321,6 @@ Atalho
 VB6
 ```
 
----
 
 ## 📌 Resumo dos arquivos
 
@@ -354,6 +353,27 @@ O resultado é um procedimento automatizado que:
 O VB6 continua sendo utilizado em muitos sistemas legados. Apesar de suas limitações, ele ainda possui uma grande quantidade de aplicações em produção.
 
 Conhecer essas limitações e adotar ferramentas complementares, como Git e sistemas de backup, é uma maneira prática de tornar a manutenção desses projetos mais segura.
+
+---
+
+## 🖼️ Imagens
+![Tela_1](images/2.png)
+
+![Tela 2](images/3.png)
+
+![Tela 3](images/4.png)
+
+![Tela 4](images/5.png)
+
+![Tela_1](images/6.png)
+
+![Tela 2](images/7.png)
+
+![Tela 3](images/8.png)
+
+![Tela 4](images/9.png)
+
+![Tela 4](images/10.png)
 
 ---
 

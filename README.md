@@ -43,8 +43,6 @@ C:\
         └── ...
 ```
 
----
-
 # 🚀 Como funciona
 
 O processo possui duas etapas principais.
@@ -182,40 +180,6 @@ O instalador irá:
 
 ---
 
-# 🛠️ Execução manual do PowerShell
-
-Também é possível executar o PowerShell diretamente.
-
-Abra o PowerShell como administrador e execute:
-
-```powershell
-.\Configurar_VB6.ps1 -VB6Path "C:\portable\vb6\vb6.exe"
-```
-
-Essa opção é útil principalmente para testes e diagnóstico.
-
----
-
-# ⚠️ Sobre ExecutionPolicy Bypass
-
-Os scripts utilizam:
-
-```text
--ExecutionPolicy Bypass
-```
-
-Isso foi utilizado para permitir que o script seja executado sem alterar permanentemente a política de execução do PowerShell do computador.
-
-Exemplo:
-
-```bat
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%PS1%"
-```
-
-O uso desse parâmetro deve ser entendido como uma decisão de implantação. Em ambientes corporativos, recomenda-se avaliar as políticas de segurança existentes antes de utilizá-lo.
-
----
-
 # 🔐 Requisitos
 
 O ambiente precisa possuir:
@@ -259,46 +223,6 @@ Responsável por:
 * inicialização do VB6.
 
 Essa divisão deixa o projeto mais organizado e facilita futuras modificações.
-
----
-
-# 🧩 Personalização
-
-O destino da instalação pode ser alterado no `.bat`:
-
-```bat
-set "PORTABLE_PATH=C:\portable\vb6"
-```
-
-Por exemplo:
-
-```bat
-set "PORTABLE_PATH=D:\Ferramentas\VB6"
-```
-
-Nesse caso, também será necessário garantir que a chamada do PowerShell continue apontando para:
-
-```text
-%PORTABLE_PATH%\vb6.exe
-```
-
----
-
-# 📂 Alterando o nome do ZIP
-
-O nome do pacote pode ser alterado através de:
-
-```bat
-set "VB_FILE=Portable.VB6.zip"
-```
-
-Por exemplo:
-
-```bat
-set "VB_FILE=VB6_Portable.zip"
-```
-
-O arquivo deverá estar na mesma pasta do instalador.
 
 ---
 
@@ -423,3 +347,53 @@ O resultado é um procedimento automatizado que:
 * cria um atalho;
 * inicia o Visual Basic 6.
 
+---
+
+## Observação
+
+O VB6 continua sendo utilizado em muitos sistemas legados. Apesar de suas limitações, ele ainda possui uma grande quantidade de aplicações em produção.
+
+Conhecer essas limitações e adotar ferramentas complementares, como Git e sistemas de backup, é uma maneira prática de tornar a manutenção desses projetos mais segura.
+
+---
+
+### ACEITE E RESPONSABILIDADE DO USUÁRIO
+
+Ao executar este procedimento, o usuário declara estar ciente
+de que esta DLL pode realizar alterações no comportamento do Visual Basic 6.0 e executar processos com
+privilégios administrativos.
+
+Este procedimento é realizado por sua conta e risco.
+
+O usuário é responsável por verificar previamente se possui
+permissão para instalar, modificar ou remover os componentes
+em seu computador.
+
+------------------------------------------------------------------------
+
+## Minhas Redes Sociais
+
+Grupo no WhatsApp de Estudos: ** Código Limpo**
+https://chat.whatsapp.com/HtA3mPmmB4RLw7tVJYVvL2
+
+Grupo no WhatsApp da Ipage
+https://chat.whatsapp.com/DPcG8meShJQCW3IgJLOYHZ
+
+Grupo no Telegram
+https://t.me/+RqTU5VvdkRvFCR36
+
+Linkedin
+http://www.linkedin.com/in/diogenes-dias-458a6a50
+
+Instagram
+https://www.instagram.com/ipage_software/?igsh=MWluYXhxcXE0cnE2cQ%3D%3D
+
+Youtube
+https://www.youtube.com/@Ipagesoftware
+
+---
+
+## Meus Produtos
+
+APi para cálculo de rotas, consulta de CEP, consulta de CNPJ.
+https://rapidapi.com/diogenes/api/ipage_cep/details

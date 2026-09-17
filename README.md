@@ -43,7 +43,7 @@ C:\
         └── ...
 ```
 
-# 🚀 Como funciona
+# 🚀 Como funciona?
 
 O processo possui duas etapas principais.
 

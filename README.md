@@ -414,6 +414,9 @@ https://www.instagram.com/ipage_software/?igsh=MWluYXhxcXE0cnE2cQ%3D%3D
 Youtube
 https://www.youtube.com/@Ipagesoftware
 
+## 📄 Licença e Uso
+
+Este documento pode ser distribuído, modificado e compartilhado livremente para fins educacionais, estudos de arquitetura de software e análise de mercado de TI.
 ---
 
 ## Meus Produtos

@@ -1,3 +1,11 @@
+#
+# @version    1.0
+# @package    system
+# @author     Diógenes Dias <diogenesdias@hotmail.com>
+# @copyright  Copyright (c) 1995-2026 Ipage Software Ltd.
+# @license    https://www.ipagesoftware.com.br/license_key/www/examples/license/
+# @modify     Diógenes Dias <diogenesdias@hotmail.com>, 10 May 2021
+#
 param (
     [Parameter(Mandatory = $true)]
     [string]$VB6Path
